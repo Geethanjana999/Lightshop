@@ -1,0 +1,58 @@
+.lampDetails {
+  padding: 5% 12%;
+  margin-top: 30px;
+  display: flex;
+}
+.lampDetailsLeft img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.lampDetailsRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lampDetailsLeft,
+.lampDetailsRight {
+  width: 48%;
+}
+
+.lampDetailsRight h1,
+.lampDetailsRight p,
+.lampDetailsRight button {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+.lampDetailsRight h1 {
+  font-size: 4rem;
+}
+.lampDetailsRight p {
+  font-size: 1.5rem;
+}
+.lampDetailsRight button {
+  margin-top: 20px;
+  width: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: #121212;
+  text-align: center;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+.goBackBtn {
+  width: 4%;
+  height: 30px;
+  padding: 2px 5px;
+  border-radius: 30px;
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}

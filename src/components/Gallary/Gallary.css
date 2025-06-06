@@ -1,0 +1,85 @@
+.gallary {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .gallaryItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.lampImage0 {
+  background-image: url("../../Assets/homepageLamp3.jpeg");
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  z-index: 1000;
+  border-radius: 20px;
+  margin-right: 150%;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.08);
+}
+
+.lampImage1 {
+  background-image: url("../../Assets/homepageLamp2.jpeg");
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  z-index: 1000;
+  border-radius: 20px;
+  margin-right: 50%;
+  margin-top: -20%;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.08);
+}
+
+.lampImage2 {
+  background-image: url("../../Assets/homepageLamp3.jpeg");
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  z-index: 900;
+  border-radius: 15px;
+  margin-top: -20%;
+  margin-left: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.08);
+}
+
+.lampImage3 {
+  background-image: url("../../Assets/homepageLamp4.webp");
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  z-index: 800;
+  border-radius: 10px;
+  margin-top: -10%;
+  margin-right: 22%;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.08);
+}
+
+.lampImage0:hover,
+.lampImage1:hover,
+.lampImage2:hover,
+.lampImage3:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}

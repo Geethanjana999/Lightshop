@@ -1,0 +1,17 @@
+.newArrivalTitle {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #000;
+}
+
+.lampItemList {
+  margin-top: 40px;
+}
+
+.lampItemList {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+}

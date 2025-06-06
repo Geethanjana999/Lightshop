@@ -1,0 +1,13 @@
+.mainCartSection {
+  padding: 5% 8%;
+}
+
+.grandTotal {
+  margin-top: 40px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 0.9;
+  color: #121212;
+  text-align: right;
+}
